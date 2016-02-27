@@ -1,0 +1,82 @@
+函数名,调用数,已用非独占时间百分比,已用独占时间百分比,平均已用非独占时间,平均已用独占时间,模块名
+mainCRTStartup,1,100,0,"7,825.59",0.24,SSE-V3.exe
+__scrt_common_main_seh,1,100,0,"7,825.35",0.03,SSE-V3.exe
+main,1,100,0,"7,825.25",0,SSE-V3.exe
+compute,1,99.81,0.05,"7,810.81",4.09,SSE-V3.exe
+Input,1,0.18,0,14.45,0,SSE-V3.exe
+Ez_Init,1,0.06,0.04,4.93,2.84,SSE-V3.exe
+H_Init,1,0.06,0.06,4.76,4.71,SSE-V3.exe
+H_cmp,"1,000",59.3,59.3,4.64,4.64,SSE-V3.exe
+Init_check,1,0.05,0,3.91,0,SSE-V3.exe
+Ez_cmp,"1,000",39.86,39.86,3.12,3.12,SSE-V3.exe
+File_Init,1,0.01,0,0.5,0.03,SSE-V3.exe
+std::_Fiopen,1,0,0,0.37,0.37,MSVCP140.dll
+"std::basic_ostream<char,std::char_traits<char> >::operator<<",4,0.02,0.02,0.34,0.34,MSVCP140.dll
+std::ctype<unsigned short>::toupper,11,0.04,0.04,0.32,0.32,MSVCP140.dll
+std::operator<<<std::char_traits<char> >,11,0.04,0,0.32,0,SSE-V3.exe
+"std::basic_ostream<char,std::char_traits<char> >::operator<<",5,0.02,0.02,0.26,0.26,MSVCP140.dll
+"std::basic_filebuf<char,std::char_traits<char> >::open",2,0.01,0,0.2,0,SSE-V3.exe
+Boundary_MUR1,"1,000",0.6,0.01,0.05,0,SSE-V3.exe
+fclose,1,0,0,0.05,0.05,ucrtbase.dll
+"std::basic_fstream<char,std::char_traits<char> >::close",1,0,0,0.05,0,SSE-V3.exe
+Bd_proc_left_right,"1,000",0.47,0.47,0.04,0.04,SSE-V3.exe
+Boundary_Init,1,0,0,0.04,0.01,SSE-V3.exe
+"std::codecvt<char,char,_Mbstatet>::_Getcat",1,0,0,0.03,0.03,MSVCP140.dll
+pre_cpp_initialization,1,0,0,0.03,0.03,SSE-V3.exe
+"std::use_facet<std::codecvt<char,char,_Mbstatet> >",1,0,0,0.03,0,SSE-V3.exe
+_aligned_malloc,3,0,0,0.02,0.02,ucrtbase.dll
+__scrt_is_managed_app,1,0,0,0.02,0.02,SSE-V3.exe
+Bd_proc_down,"1,000",0.07,0.07,0.01,0.01,SSE-V3.exe
+"std::basic_ostream<char,std::char_traits<char> >::put",9,0,0,0.01,0.01,MSVCP140.dll
+"std::basic_istream<wchar_t,std::char_traits<wchar_t> >::operator>>",9,0,0,0.01,0,MSVCP140.dll
+pre_c_initialization,1,0,0,0.01,0.01,SSE-V3.exe
+_set_new_mode,1,0,0,0.01,0.01,SSE-V3.exe
+"std::basic_iostream<char,std::char_traits<char> >::basic_iostream<char,std::char_traits<char> >",1,0,0,0.01,0.01,MSVCP140.dll
+"std::endl<char,std::char_traits<char> >",9,0,0,0.01,0,SSE-V3.exe
+std::_Fac_node::`scalar deleting destructor',1,0,0,0.01,0,SSE-V3.exe
+std::`dynamic atexit destructor for '_Fac_tidy_reg'',1,0,0,0.01,0,SSE-V3.exe
+"std::basic_fstream<char,std::char_traits<char> >::basic_fstream<char,std::char_traits<char> >",1,0,0,0.01,0,SSE-V3.exe
+Bd_proc_up,"1,000",0.06,0.06,0,0,SSE-V3.exe
+malloc,8,0,0,0,0,ucrtbase.dll
+std::uncaught_exception,11,0,0,0,0,MSVCP140.dll
+"std::basic_filebuf<char,std::char_traits<char> >::_Init",3,0,0,0,0,SSE-V3.exe
+"std::basic_streambuf<char,std::char_traits<char> >::getloc",1,0,0,0,0,MSVCP140.dll
+"std::basic_ios<char,std::char_traits<char> >::widen",9,0,0,0,0,MSVCP140.dll
+std::codecvt_base::`vector deleting destructor',1,0,0,0,0,MSVCP140.dll
+__scrt_initialize_crt,1,0,0,0,0,SSE-V3.exe
+"std::basic_ostream<char,std::char_traits<char> >::flush",9,0,0,0,0,MSVCP140.dll
+"std::basic_filebuf<char,std::char_traits<char> >::_Lock",11,0,0,0,0,MSVCP140.dll
+"std::basic_iostream<char,std::char_traits<char> >::~basic_iostream<char,std::char_traits<char> >",1,0,0,0,0,MSVCP140.dll
+_onexit,2,0,0,0,0,SSE-V3.exe
+"std::basic_ios<char,std::char_traits<char> >::setstate",12,0,0,0,0,MSVCP140.dll
+"std::basic_ostream<char,std::char_traits<char> >::_Osfx",11,0,0,0,0,MSVCP140.dll
+"std::basic_streambuf<char,std::char_traits<char> >::~basic_streambuf<char,std::char_traits<char> >",1,0,0,0,0,MSVCP140.dll
+GetModuleHandleWStub,1,0,0,0,0,KERNEL32.DLL
+"std::basic_filebuf<char,std::char_traits<char> >::_Unlock",11,0,0,0,0,MSVCP140.dll
+"std::basic_filebuf<char,std::char_traits<char> >::_Endwrite",1,0,0,0,0,SSE-V3.exe
+__security_check_cookie,6,0,0,0,0,SSE-V3.exe
+std::locale::id::operator unsigned __int64,1,0,0,0,0,MSVCP140.dll
+std::codecvt_base::always_noconv,1,0,0,0,0,MSVCP140.dll
+std::locale::facet::_Decref,2,0,0,0,0,MSVCP140.dll
+"std::basic_ios<char,std::char_traits<char> >::~basic_ios<char,std::char_traits<char> >",1,0,0,0,0,MSVCP140.dll
+__isa_available_init,1,0,0,0,0,SSE-V3.exe
+operator new,1,0,0,0,0,SSE-V3.exe
+_get_stream_buffer_pointers,1,0,0,0,0,ucrtbase.dll
+"std::basic_filebuf<char,std::char_traits<char> >::~basic_filebuf<char,std::char_traits<char> >",1,0,0,0,0,SSE-V3.exe
+"std::basic_ios<char,std::char_traits<char> >::basic_ios<char,std::char_traits<char> >",1,0,0,0,0,MSVCP140.dll
+"std::basic_streambuf<char,std::char_traits<char> >::_Init",3,0,0,0,0,MSVCP140.dll
+std::_Lockit::_Lockit,1,0,0,0,0,MSVCP140.dll
+"std::basic_ios<char,std::char_traits<char> >::clear",1,0,0,0,0,MSVCP140.dll
+"std::basic_streambuf<char,std::char_traits<char> >::basic_streambuf<char,std::char_traits<char> >",1,0,0,0,0,MSVCP140.dll
+__security_init_cookie,1,0,0,0,0,SSE-V3.exe
+std::_Facet_Register,1,0,0,0,0,SSE-V3.exe
+__scrt_acquire_startup_lock,1,0,0,0,0,SSE-V3.exe
+__scrt_initialize_onexit_tables,1,0,0,0,0,SSE-V3.exe
+std::_Lockit::~_Lockit,1,0,0,0,0,MSVCP140.dll
+std::locale::facet::_Incref,1,0,0,0,0,MSVCP140.dll
+atexit,2,0,0,0,0,SSE-V3.exe
+_RTC_Terminate,1,0,0,0,0,SSE-V3.exe
+post_pgo_initialization,1,0,0,0,0,SSE-V3.exe
+__scrt_release_startup_lock,1,0,0,0,0,SSE-V3.exe
+__scrt_initialize_default_local_stdio_options,1,0,0,0,0,SSE-V3.exe
+_RTC_Initialize,1,0,0,0,0,SSE-V3.exe
